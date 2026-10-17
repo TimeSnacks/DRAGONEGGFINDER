@@ -1,0 +1,17 @@
+
+name: DragonEggFinder
+version: 1.0.0
+main: com.timesnacks.dragoneggfinder.DragonEggFinderPlugin
+api-version: '26.2'
+description: Searches loaded chunks for containers holding Dragon Eggs.
+
+commands:
+  eggsearch:
+    description: Starts or stops the Dragon Egg search.
+    usage: /eggsearch <start|stop>
+    permission: dragoneggfinder.use
+
+permissions:
+  dragoneggfinder.use:
+    description: Allows the player to control the Dragon Egg search.
+    default: op
